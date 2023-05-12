@@ -1,3 +1,6 @@
+from skimage import feature
+from skimage.feature import local_binary_pattern
+
 class Features:
     points=24
     radius=3
